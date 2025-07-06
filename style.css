@@ -1,0 +1,44 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  .hero-section {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://img.freepik.com/free-photo/technology-communication-icons-symbols-concept_53876-120314.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 0;
+      margin-bottom: 40px;
+  }
+  .card {
+      transition: transform 0.3s;
+      margin-bottom: 20px;
+      height: 100%;
+  }
+  .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  .card-img-top {
+      height: 200px;
+      object-fit: cover;
+  }
+  footer {
+      background-color: #343a40;
+      color: white;
+      padding: 40px 0;
+      margin-top: 60px;
+  }
+  .social-icon {
+      font-size: 24px;
+      margin: 0 10px;
+      color: white;
+      transition: color 0.3s;
+  }
+  .social-icon:hover {
+      color: #17a2b8;
+  }
